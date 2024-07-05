@@ -11,7 +11,7 @@ const Subscribe = () => {
                     <div className='subscribe__name'>{el.name}</div>
                 </div>)}
             </div>
-            <button className='subscribe__button'> <a href="#">Join Whatsapp</a></button>
+            <button className='subscribe__button'> Join Whatsapp</button>
         </div>
     )
 }
