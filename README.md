@@ -14,4 +14,4 @@ npm run dev
 
 ## Деплой
 
-[демо]()
+[демо](https://crypto-promo.vercel.app/)
