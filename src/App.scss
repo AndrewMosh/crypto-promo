@@ -1,0 +1,52 @@
+.app {
+    background-image: url("./assets/images/bg.png");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__inner--one {
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width: 762px) {
+            align-items: center;
+        }
+    }
+
+    &__question {
+        font-family: "Teko Bold";
+        font-size: 84px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: rgb(242, 242, 242);
+        padding-bottom: 44px;
+
+        @media (max-width: 1282px) {
+            font-size: 64px;
+        }
+
+        @media (max-width: 762px) {
+            font-size: 40px;
+            line-height: 108%;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        @media (max-width: 341px) {
+            font-size: 30px;
+        }
+    }
+
+    &__highlight {
+        background-image: linear-gradient(to right, rgba(124, 111, 207, 0.97), rgba(116, 174, 170, 0.95), rgb(111, 207, 151));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

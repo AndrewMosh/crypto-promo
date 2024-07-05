@@ -1,0 +1,53 @@
+.testimonials {
+    margin-top: 80px;
+
+    @media (max-width: 1025px) {
+        display: none;
+    }
+
+    &__testimonial {
+        padding: 20px;
+        margin-bottom: 24px;
+        border-radius: 20px;
+        backdrop-filter: blur(30px);
+        background: rgba(48, 45, 45, 0.34);
+        width: 288px;
+
+        &--left {
+            margin-left: -110px;
+        }
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 16px;
+
+        img {
+            max-width: 48px;
+        }
+    }
+
+    &__name {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        font-family: "Teko Medium";
+        text-transform: uppercase;
+    }
+
+    &__tag {
+        color: rgba(242, 242, 242, 0.4);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 115%;
+        max-width: 238px;
+    }
+}

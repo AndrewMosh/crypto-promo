@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Teko";
+    src: url("./assets/fonts/Teko-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Teko Bold";
+    src: url("./assets/fonts/Teko-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Teko Medium";
+    src: url("./assets/fonts/Teko-Medium.ttf");
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Teko", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: rgb(242, 242, 242);
+    background-color: rgb(28, 26, 26);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    padding: 48px 0;
+
+    @media (max-width: 1024px) {
+        padding: 50px 0;
+    }
+}
+
+sup {
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: super;
+}
+
+button,
+textarea,
+input {
+    font-family: "Teko", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+a {
+    font-family: "Teko", Arial, Helvetica, sans-serif;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    width: 1248px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-size: 16px;
+
+    @media (max-width: 1280px) {
+        width: 992px;
+    }
+
+    @media (max-width: 1024px) {
+        width: 768px;
+    }
+
+    @media (max-width: 762px) {
+        width: 100%;
+        padding: 0 16px;
+    }
+}
